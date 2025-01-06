@@ -99,7 +99,7 @@ class RecipeScraperApp:
         self.results_frame.pack(pady=10)
 
         # spoonacular api key and url
-        API_KEY = "475fceb561ae425eaeb57237e8a4366a"  # replace with your spoonacular api key
+        API_KEY = "your-api-key"  # replace with your spoonacular api key
         if self.search_method.get() == "ingredients":
             # construct the API URL for ingredients
             url = f"https://api.spoonacular.com/recipes/findByIngredients?ingredients={query}&number=10&apiKey={API_KEY}"
